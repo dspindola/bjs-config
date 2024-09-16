@@ -1,0 +1,21 @@
+{
+    "name": "@bjs/config",
+    "version": "0.0.1",
+    "main": "./mod.ts",
+    "license": "MIT",
+    "type": "module",
+    "exports": {
+        ".": {
+            "default": "./mod.ts"
+        }
+    },
+    "peerDependencies": {
+        "@types/bun": "1.1.9"
+    },
+    "bin": {
+        "bjs-config": "./bin/bjs-config.ts"
+    },
+    "dependencies": {
+        "@bjs/config": "npm:@jsr/bjs__config"
+    }
+}

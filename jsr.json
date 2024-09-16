@@ -1,0 +1,16 @@
+{
+    "name": "@bjs/config",
+    "version": "0.0.1",
+    "exports": {
+        ".": "./mod.ts",
+        "./bin/bjs-config": "./bin/bjs-config.ts"
+    },
+    "publish": {
+        "include": [
+            "jsr.json",
+            "mod.ts",
+            "bin/bjs-config.ts",
+            "README.md"
+        ]
+    }
+}
